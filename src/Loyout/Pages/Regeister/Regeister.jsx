@@ -11,7 +11,7 @@ const Regeister = () => {
     const [error, setError] = useState('')
     const { createUserWithEmail } = useContext(AuthContext)
 
-    setTimeout(() => {
+    setTimeout(() => { 
         setSuccess('')
         setError('')
     }, 7000)
